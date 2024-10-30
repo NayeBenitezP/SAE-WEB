@@ -1,10 +1,10 @@
 * {
-    font-family: "Roboto Flex", sans-serif;
+    font-family: "Archivo", sans-serif;
 }
 
 /* Display Large */
 .display-lg {
-    font-family: "Roboto Flex Regular", sans-serif;
+    font-family: "Crimson Text", sans-serif;
     line-height: 64px;
     font-size: 57px;
     font-weight: 400;
@@ -14,7 +14,7 @@
 
 /* Display Medium */
 .display-md {
-    font-family: "Roboto Flex Regular", sans-serif;
+    font-family: "Crimson Text", sans-serif;
     line-height: 52px;
     font-size: 45px;
     font-weight: 400;
@@ -24,7 +24,7 @@
 
 /* Display Small */
 .display-sm {
-    font-family: "Roboto Flex Regular", sans-serif;
+    font-family: "Crimson Text", sans-serif;
     line-height: 44px;
     font-size: 36px;
     font-weight: 400;
@@ -34,7 +34,7 @@
 
 /* Header Large */
 .header-lg {
-    font-family: "Roboto Flex Regular", sans-serif;
+    font-family: "Crimson Text", sans-serif;
     line-height: 40px;
     font-size: 32px;
     font-weight: 400;
@@ -43,7 +43,7 @@
 
 /* Header Medium */
 .header-md {
-    font-family: "Roboto Flex Regular", sans-serif;
+    font-family: "Crimson Text", sans-serif;
     line-height: 36px;
     font-size: 28px;
     font-weight: 400;
@@ -52,7 +52,7 @@
 
 /* Header Small */
 .header-sm {
-    font-family: "Roboto Flex Regular", sans-serif;
+    font-family: "Archivo", sans-serif;
     line-height: 32px;
     font-size: 24px;
     font-weight: 400;
@@ -61,7 +61,7 @@
 
 /* Title Large */
 .title-lg {
-    font-family: "Roboto Flex Regular", sans-serif;
+    font-family: "Crimson Text", sans-serif;
     line-height: 28px;
     font-size: 22px;
     font-weight: 400;
@@ -70,7 +70,7 @@
 
 /* Title Medium */
 .title-md {
-    font-family: "Roboto Flex Medium", sans-serif;
+    font-family: "Crimson Text", sans-serif;
     line-height: 24px;
     font-size: 16px;
     font-weight: 500;
@@ -79,7 +79,7 @@
 
 /* Title Small */
 .title-sm {
-    font-family: "Roboto Flex Medium", sans-serif;
+    font-family: "Archivo", sans-serif;
     line-height: 20px;
     font-size: 14px;
     font-weight: 500;
@@ -88,7 +88,7 @@
 
 /* Label Large */
 .label-lg {
-    font-family: "Roboto Flex Medium", sans-serif;
+    font-family: "Archivo", sans-serif;
     line-height: 20px;
     font-size: 14px;
     font-weight: 500;
@@ -97,7 +97,7 @@
 
 /* Label Medium */
 .label-md {
-    font-family: "Roboto Flex Medium", sans-serif;
+    font-family: "Archivo", sans-serif;
     line-height: 16px;
     font-size: 12px;
     font-weight: 500;
@@ -106,7 +106,7 @@
 
 /* Label Small */
 .label-sm {
-    font-family: "Roboto Flex Medium", sans-serif;
+    font-family: "Archivo", sans-serif;
     line-height: 16px;
     font-size: 11px;
     font-weight: 500;
@@ -115,7 +115,7 @@
 
 /* Body Large */
 .body-lg {
-    font-family: "Roboto Flex Medium", sans-serif;
+    font-family: "Archivo", sans-serif;
     line-height: 24px;
     font-size: 16px;
     font-weight: 400;
@@ -124,7 +124,7 @@
 
 /* Body Medium */
 .body-md {
-    font-family: "Roboto Flex Regular", sans-serif;
+    font-family: "Archivo", sans-serif;
     line-height: 20px;
     font-size: 14px;
     font-weight: 400;
@@ -133,7 +133,7 @@
 
 /* Body Small */
 .body-sm {
-    font-family: "Roboto Flex Regular", sans-serif;
+    font-family: "Archivo", sans-serif;
     line-height: 16px;
     font-size: 12px;
     font-weight: 400;

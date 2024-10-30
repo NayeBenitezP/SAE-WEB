@@ -1,12 +1,13 @@
 @charset "UTF-8";
 /* Material Design CSS extraction, using design guidelines from MD2 and MD3 https://m3.material.io/ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@400;500&display=swap");
 * {
-  font-family: "Roboto Flex", sans-serif;
+  font-family: "Archivo", sans-serif;
 }
 
 /* Display Large */
 .display-lg {
-  font-family: "Roboto Flex Regular", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 64px;
   font-size: 57px;
   font-weight: 400;
@@ -16,7 +17,7 @@
 
 /* Display Medium */
 .display-md {
-  font-family: "Roboto Flex Regular", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 52px;
   font-size: 45px;
   font-weight: 400;
@@ -26,7 +27,7 @@
 
 /* Display Small */
 .display-sm {
-  font-family: "Roboto Flex Regular", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 44px;
   font-size: 36px;
   font-weight: 400;
@@ -36,7 +37,7 @@
 
 /* Header Large */
 .header-lg {
-  font-family: "Roboto Flex Regular", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 40px;
   font-size: 32px;
   font-weight: 400;
@@ -45,7 +46,7 @@
 
 /* Header Medium */
 .header-md, .circle-badge .icon {
-  font-family: "Roboto Flex Regular", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 36px;
   font-size: 28px;
   font-weight: 400;
@@ -54,7 +55,7 @@
 
 /* Header Small */
 .header-sm, .modal-dialog .modal-header .modal-title {
-  font-family: "Roboto Flex Regular", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 32px;
   font-size: 24px;
   font-weight: 400;
@@ -63,7 +64,7 @@
 
 /* Title Large */
 .title-lg, .topbar, .top-bar-brand, .nav-rail-brand, .card-empty span, .searchbar [class*=button-].icon {
-  font-family: "Roboto Flex Regular", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 28px;
   font-size: 22px;
   font-weight: 400;
@@ -72,7 +73,7 @@
 
 /* Title Medium */
 .title-md {
-  font-family: "Roboto Flex Medium", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 24px;
   font-size: 16px;
   font-weight: 500;
@@ -81,7 +82,7 @@
 
 /* Title Small */
 .title-sm {
-  font-family: "Roboto Flex Medium", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 20px;
   font-size: 14px;
   font-weight: 500;
@@ -90,7 +91,7 @@
 
 /* Label Large */
 .label-lg, [class*=button-], .topbar.short ul li .desc, .top-bar-toggler, .top-bar ul.dropdown .dropdown-item .item .desc, .top-bar.short ul li .desc, .top-bar-icons .button, .nav-rail-toggler, .nav-rail ul .nav-item .nav-label, .Chip {
-  font-family: "Roboto Flex Medium", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 20px;
   font-size: 14px;
   font-weight: 500;
@@ -99,7 +100,7 @@
 
 /* Label Medium */
 .label-md, .statusbadge {
-  font-family: "Roboto Flex Medium", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 16px;
   font-size: 12px;
   font-weight: 500;
@@ -108,7 +109,7 @@
 
 /* Label Small */
 .label-sm {
-  font-family: "Roboto Flex Medium", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 16px;
   font-size: 11px;
   font-weight: 500;
@@ -120,7 +121,7 @@
 .textfield-outlined select,
 .textfield-outlined textarea, .textfield-outlined label, .textfield-filled input,
 .textfield-filled textarea, .textfield-filled label {
-  font-family: "Roboto Flex Medium", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 24px;
   font-size: 16px;
   font-weight: 400;
@@ -129,7 +130,7 @@
 
 /* Body Medium */
 .body-md, p, .searchbar .searchfield, .snackbar > div {
-  font-family: "Roboto Flex Regular", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 20px;
   font-size: 14px;
   font-weight: 400;
@@ -140,7 +141,7 @@
 .body-sm, [class*=textfield-] .placeholder, [class*=textfield-] .counter, .textfield-filled.open input ~ label,
 .textfield-filled.open textarea ~ label, .textfield-filled input:focus ~ label,
 .textfield-filled textarea:focus ~ label, .textfield-filled .placeholder {
-  font-family: "Roboto Flex Regular", sans-serif;
+  font-family: "Archivo", sans-serif;
   line-height: 16px;
   font-size: 12px;
   font-weight: 400;
@@ -169,7 +170,7 @@
 }
 
 .top-bar-nav ul .nav-item .nav-icon, .nav-rail ul .nav-item .nav-icon, .icon {
-  font-family: "Material Symbols Sharp" !important;
+  font-family: "Material Symbols Rounded" !important;
   display: inline-block;
   vertical-align: bottom;
   font-variation-settings: "FILL" 0, "wght" 500, "opsz" 24;
@@ -206,9 +207,6 @@ body {
   padding: 0;
   margin: 0;
   min-height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
 }
 body.noscroll {
   overflow: hidden;
@@ -5189,68 +5187,34 @@ body.noscroll {
   text-overflow: ellipsis !important;
 }
 
-/* Basado en paneles
- - Dos paneles
- - En pantallas grandes van lado a lado
- - En pantallas pequeñas va una u otra
+/* Panel Based
+ - Any amount of panels
 */
-.twopanel {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-left: 88px;
+.panel-container {
+  position: relative;
+  width: 100%;
   overflow: hidden;
 }
+.panel-container .panel {
+  position: absolute;
+  width: inherit;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 4px;
+  transition: transform 0.8s cubic-bezier(0.2, 0, 0, 1), opacity 0.6s cubic-bezier(0.2, 0, 0, 1);
+  opacity: 0;
+}
+.panel-container .panel.before {
+  transform: translateX(-100%);
+}
+.panel-container .panel.after {
+  transform: translateX(100%);
+}
+.panel-container .panel.show {
+  opacity: 1;
+  transform: translateX(0);
+}
 
-.panelcontainer {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 58px;
-  margin-top: 64px;
-}
-.panelcontainer .panel {
-  height: 100%;
-  overflow-y: auto;
-  overflow-x: hidden;
-  padding: 8px;
-  transition: transform var(--md-sys-motion-duration-long3) var(--md-sys-motion-easing-emphasized-decelerate), opacity var(--md-sys-motion-duration-medium3) var(--md-sys-motion-easing-emphasized-decelerate);
-}
-
-/* Pantallas Pequeñas (md) */
-@media only screen and (max-width: 1000px) {
-  .panelcontainer .panel {
-    opacity: 1;
-    /* z-index: ; */
-  }
-  .panelcontainer .panel[hidden] {
-    opacity: 0;
-    pointer-events: none;
-    /* display: none; */
-    /* transform: translateX(0); */
-  }
-  .panelcontainer .panel#panel1[hidden] {
-    /* display: none; */
-    transform: translateX(-30%);
-  }
-  .panelcontainer .panel#panel2[hidden] {
-    /* display: none; */
-    transform: translateX(-70%);
-  }
-  .panelcontainer .panel#panel2:not([hidden]) {
-    /* display: none; */
-    transform: translateX(-100%);
-  }
-}
-/* Teléfonos móviles (sm) */
-@media only screen and (max-width: 700px) {
-  .twopanel {
-    margin-left: 0;
-  }
-  .panelcontainer {
-    padding-bottom: 144px;
-  }
-}
 form {
   margin: 0;
 }
@@ -5364,6 +5328,158 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
   display: none !important;
 }
 
+.bg-primary {
+  background-color: var(--md-sys-color-primary) !important;
+  color: var(--md-sys-color-on-primary) !important;
+}
+.bg-primary-container {
+  background-color: var(--md-sys-color-primary-container) !important;
+  color: var(--md-sys-color-on-primary-container) !important;
+}
+.bg-secondary {
+  background-color: var(--md-sys-color-secondary) !important;
+  color: var(--md-sys-color-on-secondary) !important;
+}
+.bg-tertiary {
+  background-color: var(--md-sys-color-tertiary) !important;
+  color: var(--md-sys-color-on-tertiary) !important;
+}
+.bg-green {
+  background-color: var(--md-custom-color-green) !important;
+  color: var(--md-custom-color-on-green) !important;
+}
+.bg-yellow {
+  background-color: var(--md-custom-color-yellow) !important;
+  color: var(--md-custom-color-on-yellow) !important;
+}
+.bg-yellow-container {
+  background-color: var(--md-custom-color-yellow-container) !important;
+  color: var(--md-custom-color-on-yellow-container) !important;
+}
+.bg-error {
+  background-color: var(--md-sys-color-error) !important;
+  color: var(--md-sys-color-on-error) !important;
+}
+.bg-background {
+  background-color: var(--md-sys-color-background) !important;
+  color: var(--md-sys-color-on-background) !important;
+}
+.bg-on-primary {
+  background-color: var(--md-sys-color-on-primary) !important;
+  color: var(--md-sys-color-primary) !important;
+}
+.bg-on-primary-container {
+  background-color: var(--md-sys-color-on-primary-container) !important;
+  color: var(--md-sys-color-primary-container) !important;
+}
+.bg-on-secondary {
+  background-color: var(--md-sys-color-on-secondary) !important;
+  color: var(--md-sys-color-secondary) !important;
+}
+.bg-on-tertiary {
+  background-color: var(--md-sys-color-on-tertiary) !important;
+  color: var(--md-sys-color-tertiary) !important;
+}
+.bg-on-green {
+  background-color: var(--md-custom-color-on-green) !important;
+  color: var(--md-custom-color-green) !important;
+}
+.bg-on-yellow {
+  background-color: var(--md-custom-color-on-yellow) !important;
+  color: var(--md-custom-color-yellow) !important;
+}
+.bg-on-yellow-container {
+  background-color: var(--md-custom-color-on-yellow-container) !important;
+  color: var(--md-custom-color-yellow-container) !important;
+}
+.bg-on-error {
+  background-color: var(--md-sys-color-on-error) !important;
+  color: var(--md-sys-color-error) !important;
+}
+.bg-on-background {
+  background-color: var(--md-sys-color-on-background) !important;
+  color: var(--md-sys-color-background) !important;
+}
+.bg-inverse {
+  background-color: var(--md-sys-color-inverse-surface) !important;
+  color: var(--md-sys-color-inverse-on-surface) !important;
+}
+.bg-appbar {
+  background-color: var(--md-sys-color-primary) !important;
+  color: var(--md-sys-color-on-primary) !important;
+}
+[data-theme=dark] .bg-appbar {
+  background-color: var(--md-sys-color-primary-container) !important;
+  color: var(--md-sys-color-on-primary-container) !important;
+}
+
+.text-primary {
+  color: var(--md-sys-color-primary) !important;
+}
+.text-primary-container {
+  color: var(--md-sys-color-primary-container) !important;
+}
+.text-secondary {
+  color: var(--md-sys-color-secondary) !important;
+}
+.text-secondary-container {
+  color: var(--md-sys-color-secondary-container) !important;
+}
+.text-tertiary {
+  color: var(--md-sys-color-tertiary) !important;
+}
+.text-tertiary-container {
+  color: var(--md-sys-color-tertiary-container) !important;
+}
+.text-on-primary {
+  color: var(--md-sys-color-on-primary) !important;
+}
+.text-on-primary-container {
+  color: var(--md-sys-color-on-primary-container) !important;
+}
+.text-on-secondary {
+  color: var(--md-sys-color-on-secondary) !important;
+}
+.text-on-secondary-container {
+  color: var(--md-sys-color-on-secondary-container) !important;
+}
+.text-on-tertiary {
+  color: var(--md-sys-color-on-tertiary) !important;
+}
+.text-on-tertiary-container {
+  color: var(--md-sys-color-on-tertiary-container) !important;
+}
+.text-inverted {
+  color: var(--md-sys-color-background) !important;
+}
+.text-green {
+  color: var(--md-custom-color-green) !important;
+}
+.text-yellow {
+  color: var(--md-custom-color-yellow) !important;
+}
+.text-yellow-container {
+  color: var(--md-custom-color-yellow-container) !important;
+}
+.text-error {
+  color: var(--md-sys-color-error) !important;
+}
+.text-on-image {
+  color: var(--md-sys-color-background) !important;
+}
+[data-theme=dark] .text-on-image {
+  color: var(--md-sys-color-on-background) !important;
+}
+
+.fill-primary {
+  filter: var(--md-sys-filter-on-primary-container);
+  transition: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
 .noclick {
   pointer-events: none;
 }
@@ -5398,7 +5514,7 @@ p {
 }
 
 .text-normal, .pagination .page-item {
-  font-family: "Archivo", sans-serif !important;
+  font-family: "Roboto Flex", sans-serif !important;
   font-size: inherit !important;
 }
 
@@ -5707,7 +5823,7 @@ p {
   bottom: 16px;
   right: 16px;
   font-size: 36px;
-  font-family: "Material Symbols Sharp";
+  font-family: "Material Symbols Rounded";
   border-radius: 28px;
   animation-name: md-grow 0.4s cubic-bezier(0.05, 0.7, 0.1, 1);
   padding: 0;
@@ -5790,7 +5906,7 @@ p {
   height: 40px;
   overflow: hidden;
   border-radius: 20px;
-  font-family: "Material Symbols Sharp";
+  font-family: "Material Symbols Rounded";
   font-size: 24px;
   line-height: 40px;
   padding: 0;
@@ -7301,7 +7417,7 @@ p {
   opacity: 0.12;
 }
 .Chip::before {
-  font-family: "Material Symbols Sharp";
+  font-family: "Material Symbols Rounded";
   color: var(--md-sys-color-on-surface-variant);
   font-size: 18px;
   line-height: 32px;
@@ -7686,17 +7802,17 @@ span {
   /* Handle */
 }
 ::-webkit-scrollbar-track {
-  background-color: var(--md-sys-color-background);
+  background-color: var(--md-sys-color-surface-container);
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--md-sys-color-surface-container-high);
+  background-color: var(--md-sys-color-surface-container-highest);
   border-radius: 4px;
   -webkit-transition: background-color 0.25s cubic-bezier(0, 0, 0, 1);
   transition: background-color 0.25s cubic-bezier(0, 0, 0, 1);
   opacity: 0.2;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: var(--md-sys-color-surface-container-highest);
+  background-color: var(--md-sys-color-primary-container);
 }
 
 /* Hipervinculos */
@@ -7738,7 +7854,7 @@ span .icon::after {
   animation-name: md-appear 0.35s cubic-bezier(0.05, 0.7, 0.1, 1) reverse;
 }
 
-div.disabled {
+.disabled {
   pointer-events: none !important;
   opacity: 0.6 !important;
 }
@@ -7756,51 +7872,6 @@ div.disabled {
   align-items: center;
   border-radius: 16px;
   text-align: center;
-}
-
-#status {
-  border-radius: 16px;
-  color: var(--md-sys-color-background);
-  width: -moz-fit-content;
-  width: fit-content;
-  display: flex;
-  padding: 6px 16px 6px 13px;
-}
-#status::before {
-  font-family: "Material Symbols Sharp";
-  display: block;
-  line-height: inherit;
-  padding-right: 4px;
-  font-variation-settings: "FILL" 1, "wght" 600, "opsz" 20;
-  color: var(--md-sys-color-background);
-}
-[data-theme=dark] #status::before {
-  font-variation-settings: "FILL" 1, "wght" 500, "opsz" 20;
-}
-#status.current {
-  background-color: var(--md-custom-color-good);
-}
-#status.current::before {
-  content: "done";
-}
-#status.behind {
-  background-color: var(--md-custom-color-warning);
-}
-#status.behind::before {
-  content: "warning";
-}
-#status.delinquent {
-  background-color: var(--md-sys-color-error);
-}
-#status.delinquent::before {
-  content: "report";
-}
-
-/* FORMULARIO =================================================== */
-form {
-  display: flex;
-  margin: 0;
-  flex-direction: column;
 }
 
 /* TEXTFIELD BUSCADOR =========================== */
@@ -7929,7 +8000,7 @@ form {
   height: 40px;
   line-height: 40px;
   font-size: 24px;
-  font-family: "Material Symbols Sharp";
+  font-family: "Material Symbols Rounded";
   font-variation-settings: "FILL" 1, "wght" 300, "opsz" 24;
   cursor: pointer;
   float: left;
@@ -8142,7 +8213,7 @@ input:read-only {
   z-index: 2;
   height: 24px;
   color: var(--md-sys-color-on-surface-variant);
-  font-family: "Material Symbols Sharp";
+  font-family: "Material Symbols Rounded";
   font-variation-settings: "FILL" 0, "wght" 500, "opsz" 24;
   position: absolute;
   pointer-events: none;
@@ -8579,7 +8650,7 @@ input[type=number], input[type=date] {
   content: "expand_more";
   right: 0;
   bottom: 0;
-  font-family: "Material Symbols Sharp";
+  font-family: "Material Symbols Rounded";
   color: inherit;
   align-items: center;
 }
@@ -8728,7 +8799,7 @@ input[type=number], input[type=date] {
 }
 .checkbox::before {
   position: absolute;
-  font-family: "Material Symbols Sharp";
+  font-family: "Material Symbols Rounded";
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" -25, "opsz" 24;
   font-size: 24px;
   line-height: 18px;
@@ -8854,7 +8925,7 @@ input:checked + .slider:before {
   content: "done";
   text-align: center;
   line-height: 24px;
-  font-family: "Material Symbols Sharp";
+  font-family: "Material Symbols Rounded";
 }
 input:checked + .slider:after {
   transform: translate(20px);
@@ -9119,10 +9190,6 @@ input[type=radio]:checked + .radiolabel:after {
   .searcharea.morph .searchsuggestions {
     margin-top: 64px;
   }
-  .panel #footer,
-  .button-fab + #footer {
-    margin-bottom: 72px;
-  }
 }
 /* Teléfonos móviles (sm) */
 @media only screen and (max-width: 700px) {
@@ -9142,10 +9209,6 @@ input[type=radio]:checked + .radiolabel:after {
   }
   .topbar .logo {
     justify-content: left;
-  }
-  .panel #footer,
-  .panel page-footer {
-    margin-bottom: 0;
   }
   .footer {
     margin-bottom: 60px;
@@ -9232,7 +9295,7 @@ input[type=radio]:checked + .radiolabel:after {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Material Symbols Sharp";
+    font-family: "Material Symbols Rounded";
     font-size: 1.5em;
     color: var(--md-sys-color-on-surface);
     content: "clear";
