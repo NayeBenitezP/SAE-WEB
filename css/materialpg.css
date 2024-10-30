@@ -7,7 +7,7 @@
 
 /* Display Large */
 .display-lg {
-  font-family: "Archivo", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   line-height: 64px;
   font-size: 57px;
   font-weight: 400;
@@ -17,7 +17,7 @@
 
 /* Display Medium */
 .display-md {
-  font-family: "Archivo", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   line-height: 52px;
   font-size: 45px;
   font-weight: 400;
@@ -27,7 +27,7 @@
 
 /* Display Small */
 .display-sm {
-  font-family: "Archivo", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   line-height: 44px;
   font-size: 36px;
   font-weight: 400;
@@ -37,7 +37,7 @@
 
 /* Header Large */
 .header-lg {
-  font-family: "Archivo", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   line-height: 40px;
   font-size: 32px;
   font-weight: 400;
@@ -46,7 +46,7 @@
 
 /* Header Medium */
 .header-md, .circle-badge .icon {
-  font-family: "Archivo", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   line-height: 36px;
   font-size: 28px;
   font-weight: 400;
@@ -64,7 +64,7 @@
 
 /* Title Large */
 .title-lg, .topbar, .top-bar-brand, .nav-rail-brand, .card-empty span, .searchbar [class*=button-].icon {
-  font-family: "Archivo", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   line-height: 28px;
   font-size: 22px;
   font-weight: 400;
@@ -73,7 +73,7 @@
 
 /* Title Medium */
 .title-md {
-  font-family: "Archivo", sans-serif;
+  font-family: "Crimson Text", sans-serif;
   line-height: 24px;
   font-size: 16px;
   font-weight: 500;
