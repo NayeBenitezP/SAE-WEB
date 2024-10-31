@@ -6550,6 +6550,7 @@ p {
   display: flex;
   padding: 8px;
   align-items: center;
+  height: 100%;
 }
 .top-bar .button {
   z-index: 2;
