@@ -117,7 +117,7 @@
         flex-direction: column;
         z-index: 1;
     }
-
+    /*
     &:hover .card-description-dropdown {
         bottom: 0;
         height: 100%;
@@ -133,6 +133,34 @@
         overflow: hidden;
         width: 100%;
         height: 0;
+        transition: 0.5s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 16px;
+
+        & .text {
+            text-align: center;
+            @extend .body-lg;
+            margin: 0;
+        }
+    }
+        */
+
+    &:hover .card-description-dropdown {
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        color: v.$colorOnPrimaryContainer;
+    }
+
+    &-description-dropdown {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: transparent;
+        color: transparent;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
         transition: 0.5s ease;
         display: flex;
         align-items: center;
