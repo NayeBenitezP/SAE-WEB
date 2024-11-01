@@ -148,16 +148,16 @@
         */
 
     &:hover .card-description-dropdown {
-        background-color: rgba($color: #000000, $alpha: 0.5);
-        color: v.$colorOnPrimaryContainer;
+        opacity: 1;
     }
 
     &-description-dropdown {
         position: absolute;
         top: 0;
         left: 0;
-        background-color: transparent;
-        color: transparent;
+        background-color: rgba($color: #000000, $alpha: 0.5);
+        color: v.$colorOnPrimaryContainer;
+        opacity: 0;
         overflow: hidden;
         width: 100%;
         height: 100%;
@@ -169,7 +169,7 @@
 
         & .text {
             text-align: center;
-            @extend .body-lg;
+            // @extend .body-lg;
             margin: 0;
         }
     }
