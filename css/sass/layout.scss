@@ -251,6 +251,9 @@ body {
 * Border Radius Classes
 **************************************************************************/
 @include gen-classes-num("br", "border-radius", 1);
+.br-circle {
+    border-radius: 50% !important;
+}
 // @include gen-classes-word("corner", "border-radius", v.$corners);
 
 /***************************************************************************

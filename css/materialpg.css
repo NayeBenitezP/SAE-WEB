@@ -8,28 +8,28 @@
 /* Display Large */
 .display-lg {
   font-family: "Crimson Text", sans-serif;
-  line-height: 64px;
-  font-size: 57px;
+  line-height: 4rem; /* 64px */
+  font-size: 3rem; /* 48px */
   font-weight: 400;
   letter-spacing: 0;
-  /* margin-top: 12px; */
+  /* margin-top: 0.75rem; */ /* 12px */
 }
 
 /* Display Medium */
 .display-md {
   font-family: "Crimson Text", sans-serif;
-  line-height: 52px;
-  font-size: 45px;
+  line-height: 3.25rem; /* 52px */
+  font-size: 2.8125rem; /* 45px */
   font-weight: 400;
   letter-spacing: 0;
-  /* margin-top: 12px; */
+  /* margin-top: 0.75rem; */ /* 12px */
 }
 
 /* Display Small */
 .display-sm {
   font-family: "Crimson Text", sans-serif;
-  line-height: 44px;
-  font-size: 36px;
+  line-height: 2.75rem; /* 44px */
+  font-size: 2.25rem;
   font-weight: 400;
   letter-spacing: 0;
   /* margin-top: 10px; */
@@ -38,8 +38,8 @@
 /* Header Large */
 .header-lg {
   font-family: "Crimson Text", sans-serif;
-  line-height: 40px;
-  font-size: 32px;
+  line-height: 2.5rem; /* 40px */
+  font-size: 2rem; /* 32px */
   font-weight: 400;
   letter-spacing: 0;
 }
@@ -47,8 +47,8 @@
 /* Header Medium */
 .header-md, .circle-badge .icon {
   font-family: "Crimson Text", sans-serif;
-  line-height: 36px;
-  font-size: 28px;
+  line-height: 2.25rem; /* 36px */
+  font-size: 1.75rem; /* 28px */
   font-weight: 400;
   letter-spacing: 0;
 }
@@ -56,8 +56,8 @@
 /* Header Small */
 .header-sm, .modal-dialog .modal-header .modal-title {
   font-family: "Archivo", sans-serif;
-  line-height: 32px;
-  font-size: 24px;
+  line-height: 2rem; /* 32px */
+  font-size: 1.5rem; /* 24px */
   font-weight: 400;
   letter-spacing: 0;
 }
@@ -65,8 +65,8 @@
 /* Title Large */
 .title-lg, .topbar, .top-bar-brand, .nav-rail-brand, .card-empty span, .searchbar [class*=button-].icon {
   font-family: "Crimson Text", sans-serif;
-  line-height: 28px;
-  font-size: 22px;
+  line-height: 1.75rem; /* 28px */
+  font-size: 1.375rem; /* 22px */
   font-weight: 400;
   letter-spacing: 0;
 }
@@ -74,46 +74,46 @@
 /* Title Medium */
 .title-md {
   font-family: "Crimson Text", sans-serif;
-  line-height: 24px;
-  font-size: 16px;
+  line-height: 1.5rem; /* 24px */
+  font-size: 1rem; /* 16px */
   font-weight: 500;
-  letter-spacing: 0.15px;
+  letter-spacing: 0.009375rem; /* 0.15px */
 }
 
 /* Title Small */
 .title-sm {
   font-family: "Archivo", sans-serif;
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 1.25rem; /* 20px */
+  font-size: 0.875rem; /* 14px */
   font-weight: 500;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.00625rem; /* 0.1px */
 }
 
 /* Label Large */
 .label-lg, [class*=button-], .topbar.short ul li .desc, .top-bar-toggler, .top-bar ul.dropdown .dropdown-item .item .desc, .top-bar.short ul li .desc, .top-bar-icons .button, .nav-rail-toggler, .nav-rail ul .nav-item .nav-label, .Chip {
   font-family: "Archivo", sans-serif;
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 1.25rem; /* 20px */
+  font-size: 0.875rem; /* 14px */
   font-weight: 500;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.00625rem; /* 0.1px */
 }
 
 /* Label Medium */
 .label-md, .statusbadge {
   font-family: "Archivo", sans-serif;
-  line-height: 16px;
-  font-size: 12px;
+  line-height: 1rem; /* 16px */
+  font-size: 0.75rem; /* 12px */
   font-weight: 500;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem; /* 0.5px */
 }
 
 /* Label Small */
 .label-sm {
   font-family: "Archivo", sans-serif;
-  line-height: 16px;
-  font-size: 11px;
+  line-height: 1rem; /* 16px */
+  font-size: 0.6875rem; /* 11px */
   font-weight: 500;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem; /* 0.5px */
 }
 
 /* Body Large */
@@ -122,19 +122,19 @@
 .textfield-outlined textarea, .textfield-outlined label, .textfield-filled input,
 .textfield-filled textarea, .textfield-filled label {
   font-family: "Archivo", sans-serif;
-  line-height: 24px;
-  font-size: 16px;
+  line-height: 1.5rem; /* 24px */
+  font-size: 1rem; /* 16px */
   font-weight: 400;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.03125rem; /* 0.5px */
 }
 
 /* Body Medium */
 .body-md, p, .searchbar .searchfield, .snackbar > div {
   font-family: "Archivo", sans-serif;
-  line-height: 20px;
-  font-size: 14px;
+  line-height: 1.25rem; /* 20px */
+  font-size: 0.875rem; /* 14px */
   font-weight: 400;
-  letter-spacing: 0.25px;
+  letter-spacing: 0.015625rem; /* 0.25px */
 }
 
 /* Body Small */
@@ -142,10 +142,10 @@
 .textfield-filled.open textarea ~ label, .textfield-filled input:focus ~ label,
 .textfield-filled textarea:focus ~ label, .textfield-filled .placeholder {
   font-family: "Archivo", sans-serif;
-  line-height: 16px;
-  font-size: 12px;
+  line-height: 1rem; /* 16px */
+  font-size: 0.75rem; /* 12px */
   font-weight: 400;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.025rem; /* 0.4px */
 }
 
 /* Colors */
@@ -3419,6 +3419,10 @@ body.noscroll {
     border-radius: 16px !important;
   }
 }
+.br-circle {
+  border-radius: 50% !important;
+}
+
 /***************************************************************************
  * Percentage Layouts
  **************************************************************************/
